@@ -111,7 +111,7 @@ class SherRAG:
                 continue
             doc = self.documents[idx].copy()
             s = float(score)
-            if identity_q and doc.get("id") in ("profile_intro", "elevator_pitch", "qa_008", "qa_015"):
+            if identity_q and doc.get("id") in ("profile_intro", "elevator_pitch", "qa_008", "qa_009"):
                 s += 0.15
             elif identity_q and doc.get("category") == "profile":
                 s += 0.08
@@ -234,7 +234,7 @@ class SherRAG:
         )
         if any(k in q for k in identity_keywords):
             for doc in retrieved:
-                if doc.get("id") in ("profile_intro", "elevator_pitch", "qa_008", "qa_015"):
+                if doc.get("id") in ("profile_intro", "elevator_pitch", "qa_008", "qa_009"):
                     return self._extract_answer(doc["text"])
             for doc in retrieved:
                 if doc.get("category") == "profile":

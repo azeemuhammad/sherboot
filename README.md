@@ -45,12 +45,14 @@ Without a key the bot still works in **retrieval-only** mode.
 
 `sher_khan_knowledge.jsonl` covers:
 
-- Full name: Muhammad Sher Khan
-- Father: Nawab Ali Khan
-- Date of birth: 10 January 2005
-- Hometown: Matta, Swat
+- Full name: Muhammad Sher Khan · Father: Nawab Ali Khan
+- Date of birth: 10 January 2005 · Hometown: Matta, Swat, Pakistan
 - Matric: The Swat Grammar School, Sambat
 - FSc 2022: Govt. Degree College Mingora, Swat
+- University: BS Artificial Intelligence @ UMT Lahore
+- Skills: Flutter, Firebase, ML models, ETL, databases, clean architecture
+- Languages: Pashto, English, Burushaski
+- Internship: open to onsite Flutter/Mobile roles in Lahore (Johar Town / Techparser)
 
 ---
 

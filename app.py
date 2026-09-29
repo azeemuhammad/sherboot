@@ -73,7 +73,7 @@ def init_session():
                 "role": "assistant",
                 "content": (
                     "Hey! I'm **SherBot** — personal assistant of Muhammad Sher Khan. "
-                    "Ask me about his name, education, hometown, or background."
+                    "Ask me about his education, skills, university, internship, or background."
                 ),
             }
         ]
@@ -90,11 +90,12 @@ def sidebar():
         )
         st.markdown("---")
         st.markdown("**Muhammad Sher Khan**")
-        st.caption("Matta, Swat · Pakistan")
-        st.caption("Born 10 January 2005")
+        st.caption("BS Artificial Intelligence · UMT Lahore")
+        st.caption("From Matta, Swat · Born 10 January 2005")
         st.markdown("")
         st.markdown("📘 Matric — The Swat Grammar School, Sambat")
         st.markdown("📗 FSc 2022 — Govt. Degree College Mingora, Swat")
+        st.markdown("📱 Flutter · Firebase · ML · ETL")
         st.markdown("---")
 
         api_key = st.text_input(
@@ -164,7 +165,7 @@ def main():
                             unsafe_allow_html=True,
                         )
 
-    if prompt := st.chat_input("Ask about Sher Khan's name, education, hometown…"):
+    if prompt := st.chat_input("Ask about education, skills, UMT, internship, languages…"):
         st.session_state.messages.append({"role": "user", "content": prompt})
         with st.chat_message("user"):
             st.markdown(prompt)
