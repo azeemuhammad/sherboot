@@ -24,7 +24,7 @@
     "answer": "I am pursuing a BS in Artificial Intelligence at the University of Management and Technology (UMT), Lahore."
   },
   {
-    "question": "Where is your university located?",
+    "question": "Where is your university name?",
     "answer": "My university, the University of Management and Technology (UMT), is located in Lahore, Pakistan."
   },
   {
@@ -63,4 +63,13 @@
     "question": "Where did you complete your school and college education?",
     "answer": "I completed my Matriculation at The Swat Grammar School, Sambat, and passed my FSc in 2022 from Govt. Degree College Mingora, Swat."
   }
+ {
+    "question": "Where did you complete your school and college education?",
+    "answer": "I completed my Matriculation at The Swat Grammar School, Sambat, and passed my FSc in 2022 from Govt. Degree College Mingora, Swat."
+  },
+ {
+    "question": " how amny language he speak?",
+    "answer": " pahto, english, brushaski."
+  }
+
 ]
